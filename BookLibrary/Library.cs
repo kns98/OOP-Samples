@@ -8,9 +8,9 @@ namespace BookLibrary
     {
         private readonly List<Book> books;
 
-        public Library()
+        public Library(List<Book> pbooks)
         {
-            books = new List<Book>();
+            books = pbooks;
         }
 
         public Book FindBookById(int id)

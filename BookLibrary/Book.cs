@@ -8,8 +8,10 @@ namespace BookLibrary
     {
         public Book(int id, string name, string author)
         {
+            Id = id;
             Name = name;
             Author = author;
+            IsAvailable = true;
         }
 
         public int Id { get; }

@@ -34,7 +34,9 @@ class Library
 }
 ```
 
-Library class represents a list of books that are in the library. This is list private so we can work with books only from this `Library` class. We will add some methods for that later.
+Library class represents a list of books that are in the library. 
+This is list private so we can work with books only from this `Library` class. 
+We will add some methods for that later.
 
 Let's add a new feature to our library system.
 
